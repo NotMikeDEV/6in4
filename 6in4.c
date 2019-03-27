@@ -16,6 +16,7 @@ int main(int argc, char* argv[])
 	if (argc != 4)
 	{
 		printf("Usage: %s [Local IPv4] [Remote IPv4] [Local IPv6]");
+		return -1;
 	}
 	printf("LocalIPv4: %s\n", argv[1]);
 	printf("RemoteIPv4: %s\n", argv[2]);
